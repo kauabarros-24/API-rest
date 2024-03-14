@@ -5,8 +5,10 @@ class Categoria(models.Model):
     #Adiciconado por Kaua
     nome = models.CharField(max_length=50)
     idade = models.IntegerField(default=True)
+    #Não usar return self.x, self.y
     def __str__(self):
-        return self.descricao, self.nome
+        return self.descricao
+        return self.nome
     
 
 
