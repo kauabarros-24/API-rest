@@ -7,4 +7,3 @@ class CategoriaViewSet(ModelViewSet):
     queryset = Categoria.objects.all()
     #define o serializer que será utilizado para serializar os objetos
     serializer_class = CategoriaSerializer
-    
