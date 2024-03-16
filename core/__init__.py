@@ -1,2 +1,0 @@
-from .editora import EditoraViewSet
-
